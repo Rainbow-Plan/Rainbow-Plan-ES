@@ -1,0 +1,4 @@
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\bin\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\bin\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\obj\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\obj\Debug\RPlink.pdb
