@@ -10,3 +10,15 @@ C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.dll
 C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.pdb
 C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\FunWinForm.dll
 C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\FunWinForm.pdb
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\HomeWinFrom.dll
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\HomeWinFrom.pdb
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\FunWinForm.dll
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\RPlink.dll
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\FunWinForm.pdb
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\bin\Debug\RPlink.pdb
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.HomeWF.resources
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.Properties.Resources.resources
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinForm.csproj.GenerateResource.Cache
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.dll
+C:\Users\Lab\Desktop\RainbowPlan\HomeWinFrom\obj\Debug\HomeWinFrom.pdb

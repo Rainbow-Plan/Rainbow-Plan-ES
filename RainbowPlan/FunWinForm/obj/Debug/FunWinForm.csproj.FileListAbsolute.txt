@@ -10,3 +10,15 @@ C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.WordWF.resour
 C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.csproj.GenerateResource.Cache
 C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.CollectWF.resources
 C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.ShareWF.resources
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\bin\Debug\FunWinForm.dll
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\bin\Debug\FunWinForm.pdb
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\bin\Debug\RPlink.dll
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\bin\Debug\RPlink.pdb
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.CollectWF.resources
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.Properties.Resources.resources
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.ShareWF.resources
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.WordWF.resources
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.csproj.GenerateResource.Cache
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.dll
+C:\Users\Lab\Desktop\RainbowPlan\FunWinForm\obj\Debug\FunWinForm.pdb

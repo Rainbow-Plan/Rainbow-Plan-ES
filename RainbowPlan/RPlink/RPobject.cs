@@ -39,7 +39,8 @@ namespace RPlink
             get { return Cn; }
             set { Cn = value; }
         }
-
+        //连接对象：包含四个属性ins，id，eng，cn
+        //连接对象有三个初始化方法，如下
         public RPobject() { }
         public RPobject(int Ins) 
         {
@@ -52,6 +53,5 @@ namespace RPlink
             this.Eng = Eng;
             this.Cn = Cn;
         }
-
     }
 }

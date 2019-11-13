@@ -59,6 +59,7 @@
     <Compile Include="ShareWF.Designer.cs">
       <DependentUpon>ShareWF.cs</DependentUpon>
     </Compile>
+    <Compile Include="WordList.cs" />
     <Compile Include="WordWF.cs">
       <SubType>Form</SubType>
     </Compile>

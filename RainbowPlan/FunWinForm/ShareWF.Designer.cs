@@ -36,6 +36,7 @@
             this.PBShare = new System.Windows.Forms.PictureBox();
             this.lbShare = new System.Windows.Forms.Label();
             this.lbSlogan2 = new System.Windows.Forms.Label();
+            this.btSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PBShare)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,9 +60,9 @@
             this.btGoBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btGoBack.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btGoBack.ForeColor = System.Drawing.Color.SteelBlue;
-            this.btGoBack.Location = new System.Drawing.Point(278, 484);
+            this.btGoBack.Location = new System.Drawing.Point(225, 481);
             this.btGoBack.Name = "btGoBack";
-            this.btGoBack.Size = new System.Drawing.Size(190, 45);
+            this.btGoBack.Size = new System.Drawing.Size(129, 45);
             this.btGoBack.TabIndex = 8;
             this.btGoBack.Text = "返回";
             this.btGoBack.UseVisualStyleBackColor = false;
@@ -124,6 +125,22 @@
             this.lbSlogan2.TabIndex = 0;
             this.lbSlogan2.Text = "但\r\n一\r\n定\r\n最\r\n喜\r\n欢";
             // 
+            // btSave
+            // 
+            this.btSave.BackColor = System.Drawing.SystemColors.Control;
+            this.btSave.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btSave.BackgroundImage")));
+            this.btSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btSave.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btSave.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btSave.Location = new System.Drawing.Point(387, 481);
+            this.btSave.Name = "btSave";
+            this.btSave.Size = new System.Drawing.Size(129, 45);
+            this.btSave.TabIndex = 8;
+            this.btSave.Text = "保存";
+            this.btSave.UseVisualStyleBackColor = false;
+            this.btSave.Click += new System.EventHandler(this.btSave_Click);
+            // 
             // ShareWF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -132,6 +149,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(750, 550);
+            this.Controls.Add(this.btSave);
             this.Controls.Add(this.btGoBack);
             this.Controls.Add(this.lbChanese);
             this.Controls.Add(this.lbEnglish);
@@ -160,5 +178,6 @@
         private System.Windows.Forms.PictureBox PBShare;
         private System.Windows.Forms.Label lbShare;
         private System.Windows.Forms.Label lbSlogan2;
+        private System.Windows.Forms.Button btSave;
     }
 }

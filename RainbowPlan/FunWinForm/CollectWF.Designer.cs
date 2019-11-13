@@ -85,6 +85,7 @@
             this.btPreserve.Text = "保存";
             this.btPreserve.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btPreserve.UseVisualStyleBackColor = true;
+            this.btPreserve.Click += new System.EventHandler(this.btPreserve_Click);
             // 
             // btToShare
             // 
