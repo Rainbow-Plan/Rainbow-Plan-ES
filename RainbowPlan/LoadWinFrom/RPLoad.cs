@@ -20,7 +20,7 @@ namespace LoadWinFrom
         {
             InitializeComponent();
         }
-        RPobject OB_Load = new RPobject(1);//欢迎页用于命令和数据传递接受的连接对象
+        public RPobject OB_Load = new RPobject(1);//欢迎页用于命令和数据传递接受的连接对象
         private void Load_Word()
         {
             RPconnect CT_Load = new RPconnect(OB_Load);//使用“连接”获取数据

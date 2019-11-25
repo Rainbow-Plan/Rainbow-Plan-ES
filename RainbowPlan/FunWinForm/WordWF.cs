@@ -15,15 +15,15 @@ namespace FunWinForm
     public partial class WordWF : Form
     {
         //记单词页：可以上下跳转单词（五个以内），可以分享单词
-        int i = 0;//单词计数
+        public int i = 0;//单词计数
         public WordWF()
         {
             InitializeComponent();
         }
 
-        RPobject OB_Word = new RPobject(3);//单词页用于命令和数据传递的对象
+        public RPobject OB_Word = new RPobject(3);//单词页用于命令和数据传递的对象
         WordList WordQ = new WordList();//用于储存Word的队列对象
-        private void Word()
+        public void Word()
         {
             RPconnect CT_Word = new RPconnect(OB_Word);
             OB_Word = CT_Word.captureWord();

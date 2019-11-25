@@ -1,0 +1,13 @@
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\obj\Debug\RainbowPlanTest.csprojResolveAssemblyReference.cache
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\RainbowPlanTest.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\RainbowPlanTest.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\FunWinForm.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\FunWinForm.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\obj\Debug\RainbowPlanTest.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\obj\Debug\RainbowPlanTest.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\HomeWinFrom.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\LoadWinFrom.exe
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\HomeWinFrom.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RainbowPlanTest\bin\Debug\LoadWinFrom.pdb

@@ -7,6 +7,8 @@ using System.Windows;
 using System.Data;
 using System.Data.SqlClient;
 
+using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace RPlink
 {  
@@ -18,28 +20,31 @@ namespace RPlink
          {
              this.OBconncet = OBconncet;
              Connect();
-         }  
+         }
 
-         SqlConnection conn = new SqlConnection();   //一系列的连接实例和表实例
-         SqlCommand Com = new SqlCommand();
-         SqlDataAdapter Da = null;
-         DataTable DtableWord = new DataTable();
+         OleDbConnection conn = new OleDbConnection();   //一系列的连接实例和表实例
+         OleDbCommand Com = new OleDbCommand();
+         OleDbDataAdapter Da = null;
+         public DataTable DtableWord = new DataTable();
          DataTable DtableCollect = new DataTable();
-         int Count = 0;//记录数据表条数
+         int Count = 0;//记录数据表行数
          int I = 1;//计数
+
+         string ExcelPath = Application.StartupPath.ToString() + "/test.xlsx";
+
          public void Connect()  //连接，获取两张表
          {
-             String connectionString = "Data Source=F-VER;database=RainbowPlan;Integrated security = SSPI";
+             String connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + ExcelPath + ";Extended Properties='Excel 8.0;HDR=YES;IMEX=0';";
              conn.ConnectionString = connectionString;
              conn.Open();
 
              Com.Connection = conn;
-             Com.CommandText = "select * from Word";
-             Da = new SqlDataAdapter(Com);
+             Com.CommandText = "SELECT * FROM [Word$]";
+             Da = new OleDbDataAdapter(Com);
              Da.Fill(DtableWord);
 
-             Com.CommandText = "select * from Collect";
-             Da = new SqlDataAdapter(Com);
+             Com.CommandText = "SELECT * FROM [Collect$]";
+             Da = new OleDbDataAdapter(Com);
              Da.Fill(DtableCollect);
 
          }
@@ -70,7 +75,7 @@ namespace RPlink
          public RPobject captureCollect()  //返回捕捉到的Collect数据，给对应窗口
          {
              Count = (int)DtableCollect.Compute("Count([ID])", "");
-             if (Count >= 0)
+             if ((Count-I) >= 0)
              {
                  OBconncet.id = DtableCollect.Rows[Count - I][0].ToString();
                  OBconncet.cn = DtableCollect.Rows[Count - I][1].ToString();
@@ -89,7 +94,7 @@ namespace RPlink
              dr["Record"] = OBconncet.cn;
              DtableCollect.Rows.Add(dr);
              //保存到数据库
-             Com.CommandText = "insert into Collect values(@id,@record)";
+             Com.CommandText = "insert into [Collect$](ID,Record) values(@id,@record)";
              Com.Parameters.AddWithValue("@id", OBconncet.id);
              Com.Parameters.AddWithValue("@record", OBconncet.cn);
              int T_F = (int)Com.ExecuteNonQuery();

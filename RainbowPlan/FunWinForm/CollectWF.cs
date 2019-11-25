@@ -22,7 +22,7 @@ namespace FunWinForm
         }
 
         int I = 0;//收录计数
-        RPobject Record = new RPobject(31);//用于收录数据传递的对象
+        public RPobject Record = new RPobject(31);//用于收录数据传递的对象
         RPconnect RcConnect = null;
         public void DataToFill()
         {

@@ -21,8 +21,8 @@ namespace HomeWinFrom
             InitializeComponent();
         }
 
-        RPobject OB_Home = new RPobject(2);//主页用于命令和数据传递的对象
-        private void Home_Word()
+        public RPobject OB_Home = new RPobject(2);//主页用于命令和数据传递的对象
+        public void Home_Word()
         {
             RPconnect CT_Home = new RPconnect(OB_Home);//连接并获取数据
             OB_Home = CT_Home.captureWord();
