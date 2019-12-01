@@ -1,0 +1,5 @@
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\bin\x64\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\bin\x64\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\obj\x64\Debug\RPlink.csprojResolveAssemblyReference.cache
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\obj\x64\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\RPlink\obj\x64\Debug\RPlink.pdb

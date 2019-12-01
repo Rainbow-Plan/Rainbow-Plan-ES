@@ -1,0 +1,15 @@
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\LoadWinFrom.exe.config
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\LoadWinFrom.exe
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\LoadWinFrom.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\HomeWinFrom.dll
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\FunWinForm.dll
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\HomeWinFrom.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\bin\x64\Debug\FunWinForm.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinForm.csprojResolveAssemblyReference.cache
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinFrom.LoadWF.resources
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinFrom.Properties.Resources.resources
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinForm.csproj.GenerateResource.Cache
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinFrom.exe
+C:\Users\F_ver\Desktop\RainbowPlan\LoadWinFrom\obj\x64\Debug\LoadWinFrom.pdb

@@ -1,0 +1,12 @@
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\bin\x64\Debug\FunWinForm.dll
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\bin\x64\Debug\FunWinForm.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\bin\x64\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\bin\x64\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.csprojResolveAssemblyReference.cache
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.CollectWF.resources
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.Properties.Resources.resources
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.ShareWF.resources
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.WordWF.resources
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.csproj.GenerateResource.Cache
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.dll
+C:\Users\F_ver\Desktop\RainbowPlan\FunWinForm\obj\x64\Debug\FunWinForm.pdb

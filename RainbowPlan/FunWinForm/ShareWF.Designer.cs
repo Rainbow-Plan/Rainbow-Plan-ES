@@ -76,7 +76,7 @@
             this.lbChanese.Name = "lbChanese";
             this.lbChanese.Size = new System.Drawing.Size(212, 228);
             this.lbChanese.TabIndex = 6;
-            this.lbChanese.Text = "Chanese";
+            this.lbChanese.Text = "Chinese";
             // 
             // lbEnglish
             // 

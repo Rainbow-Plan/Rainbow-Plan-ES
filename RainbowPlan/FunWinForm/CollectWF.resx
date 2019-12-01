@@ -553,6 +553,18 @@
         /9k=
 </value>
   </data>
+  <data name="btToHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAABGdBTUEAALGPC/xhBQAAAY9JREFUWEft
+        l91xgzAMgBnBYYKO0A3aETJCNmk3aF8wj+0GGSHZoHm2c8cIyQatZKScgBQwYEhaf3e6EP+gz+AokEQi
+        /w2l7RMGfb09lD6uV9oUqbbfGHiMbdR9G6jMbFiwHthHw5Ylze1LRS6zry5kG4yh4cuQZuZDCsmr17jK
+        MJa65kO9FWql7ZYl4PgMYo/UfQHbsE+M2+Jc6g6Lk8zMV5ck05CFucFlXdKKpDn0SVreAXOoyLYsbhSl
+        pD35SjJNWXuaXNbVSCGZavNJXd7g3IrsVLUWVl2rkcMlGSmLgTmoaxj1Gjn6hILGBRhaa9tq5FQ0ZH1r
+        Le4bntxVfsaC55bly2vPyj0UUpLBHJzP6zcAK9zzRGoKDufET2rq5s+Luv0GtdE9i+b2mZp7MauonOdb
+        bxcT9UoIRNFrRNHfiKItRNFr3I0o/DNt+L0ej6m5F7OKjuF+ROmdzEs0zY7vLFo+ZNhd0JAvjrBtSKMb
+        lRcPl4kzBkifMTdp9MPJwupg8n6OwLvoLRmJRHxJkh8bGFLRl+X5IwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="btPreserve.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAABGdBTUEAALGPC/xhBQAAAV1JREFUWEft
@@ -5061,18 +5073,6 @@
         rZF/EdEBAAAAAAAA+NdpjfyLiA4AAAAAAADAv05r5F++jegAAAAAAAAA8G8iogMAAAAAAADAIqIDAAAA
         AAAAwHJEdD8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P7+v3//7f/8fgqkr3AoP9XIAAAAASUVO
         RK5CYII=
-</value>
-  </data>
-  <data name="btToHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAABGdBTUEAALGPC/xhBQAAAY9JREFUWEft
-        l91xgzAMgBnBYYKO0A3aETJCNmk3aF8wj+0GGSHZoHm2c8cIyQatZKScgBQwYEhaf3e6EP+gz+AokEQi
-        /w2l7RMGfb09lD6uV9oUqbbfGHiMbdR9G6jMbFiwHthHw5Ylze1LRS6zry5kG4yh4cuQZuZDCsmr17jK
-        MJa65kO9FWql7ZYl4PgMYo/UfQHbsE+M2+Jc6g6Lk8zMV5ck05CFucFlXdKKpDn0SVreAXOoyLYsbhSl
-        pD35SjJNWXuaXNbVSCGZavNJXd7g3IrsVLUWVl2rkcMlGSmLgTmoaxj1Gjn6hILGBRhaa9tq5FQ0ZH1r
-        Le4bntxVfsaC55bly2vPyj0UUpLBHJzP6zcAK9zzRGoKDufET2rq5s+Luv0GtdE9i+b2mZp7MauonOdb
-        bxcT9UoIRNFrRNHfiKItRNFr3I0o/DNt+L0ej6m5F7OKjuF+ROmdzEs0zY7vLFo+ZNhd0JAvjrBtSKMb
-        lRcPl4kzBkifMTdp9MPJwupg8n6OwLvoLRmJRHxJkh8bGFLRl+X5IwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="btRToShare3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

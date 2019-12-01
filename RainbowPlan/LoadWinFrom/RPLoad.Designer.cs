@@ -32,7 +32,7 @@
             this.lbWelcome = new System.Windows.Forms.Label();
             this.PBCenter = new System.Windows.Forms.PictureBox();
             this.lbEnglish = new System.Windows.Forms.Label();
-            this.lbChanese = new System.Windows.Forms.Label();
+            this.lbChinese = new System.Windows.Forms.Label();
             this.btToHome = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PBCenter)).BeginInit();
             this.SuspendLayout();
@@ -72,15 +72,15 @@
             this.lbEnglish.TabIndex = 2;
             this.lbEnglish.Text = "English";
             // 
-            // lbChanese
+            // lbChinese
             // 
-            this.lbChanese.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbChanese.Location = new System.Drawing.Point(266, 194);
-            this.lbChanese.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbChanese.Name = "lbChanese";
-            this.lbChanese.Size = new System.Drawing.Size(212, 228);
-            this.lbChanese.TabIndex = 2;
-            this.lbChanese.Text = "Chanese";
+            this.lbChinese.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbChinese.Location = new System.Drawing.Point(266, 194);
+            this.lbChinese.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbChinese.Name = "lbChinese";
+            this.lbChinese.Size = new System.Drawing.Size(212, 228);
+            this.lbChinese.TabIndex = 2;
+            this.lbChinese.Text = "Chinese";
             // 
             // btToHome
             // 
@@ -107,7 +107,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(750, 550);
             this.Controls.Add(this.btToHome);
-            this.Controls.Add(this.lbChanese);
+            this.Controls.Add(this.lbChinese);
             this.Controls.Add(this.lbEnglish);
             this.Controls.Add(this.PBCenter);
             this.Controls.Add(this.lbWelcome);
@@ -132,7 +132,7 @@
         private System.Windows.Forms.Label lbWelcome;
         private System.Windows.Forms.PictureBox PBCenter;
         private System.Windows.Forms.Label lbEnglish;
-        private System.Windows.Forms.Label lbChanese;
+        private System.Windows.Forms.Label lbChinese;
         private System.Windows.Forms.Button btToHome;
     }
 }

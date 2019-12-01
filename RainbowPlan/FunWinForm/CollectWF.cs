@@ -46,6 +46,7 @@ namespace FunWinForm
             if(True_F==1)
             {
                 MessageBox.Show("保存成功","保存", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.rtxCollect.Clear();
                 DataToFill();//刷新记录显示
             }
             else
@@ -56,14 +57,64 @@ namespace FunWinForm
 
         private void btToShare_Click(object sender, EventArgs e)       //独乐乐不如众乐乐，喜欢值得分享
         {
+            ToSahre(this.rtxCollect.Text);
+        }
+        private void btRToShare1_Click(object sender, EventArgs e)
+        {
+            ToSahre(this.lbRecord1.Text);
+        }
+        private void btRToShare2_Click(object sender, EventArgs e)
+        {
+            ToSahre(this.lbRecord2.Text);
+        }
+
+        private void btRToShare3_Click(object sender, EventArgs e)
+        {
+            ToSahre(this.lbRecord3.Text);
+        }
+
+        public void ToSahre(string Record)
+        {
             RPobject Share = new RPobject(32);
             Share.eng = null;
-            Share.cn = this.rtxCollect.Text;
+            Share.cn = Record;
             ShareWF ToShare = new ShareWF();
             ToShare.TO_Pictrue(Share);
             ToShare.Show();
         }
 
+        //第一次编辑文本，文本框会清零
+        int MouseC = 0;
+        private void rtxCollect_MouseDown(object sender, MouseEventArgs e)
+        {
+            if(MouseC==0)
+            {
+                this.rtxCollect.Clear();
+                MouseC++;
+            }
+        }
+
+        //修改已经保存过的记录
+        private void btUpdate1_Click(object sender, EventArgs e)
+        {
+            this.rtxCollect.Text = this.lbRecord1.Text;
+            I--;
+            MouseC = 1;
+        }
+
+        private void btUpdate2_Click(object sender, EventArgs e)
+        {
+            this.rtxCollect.Text = this.lbRecord2.Text;
+            I = I - 2;
+            MouseC = 1;
+        }
+
+        private void btUpdate3_Click(object sender, EventArgs e)
+        {
+            this.rtxCollect.Text = this.lbRecord3.Text;
+            I = I - 3;
+            MouseC = 1;
+        }
         private void btToHome_Click(object sender, EventArgs e)     //或许退一步，回去记记单词也不错
         {
             this.Close();

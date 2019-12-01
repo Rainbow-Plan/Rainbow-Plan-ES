@@ -4,6 +4,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Windows.Forms;
 using FunWinForm;
 
+using System.Data.OleDb;
+
 namespace RainbowPlanTest
 {
     [TestClass]
@@ -16,14 +18,14 @@ namespace RainbowPlanTest
             bool OK = false;
             WordWF testWordWF = new WordWF();
             testWordWF.Word();
-            if (testWordWF.i == 1)
+            if (testWordWF.I == 1)
             {
                 OK = true;
             }
             Assert.AreEqual(OK, true);
 
             testWordWF.Word();
-            if (testWordWF.i == 02)
+            if (testWordWF.I == 02)
             {
                 OK = true;
             }

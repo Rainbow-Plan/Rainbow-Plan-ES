@@ -49,19 +49,6 @@ namespace RPlink
 
          }
 
-         //public void InsChank() //检查对象ins命令，判断是哪个窗体传来的，该执行什么方法
-         //{
-             //if(OBconncet.ins == 1 || OBconncet.ins == 2) 
-             //{
-             //    captureWord();
-             //    conn.Close();
-             //}
-         //    if(OBconncet.ins == 32)
-         //    {
-         //        ToRecordSave();
-         //    }
-
-         //}
          public RPobject captureWord()  //返回捕捉到的Word数据，给对应窗口
          {
              Count = (int)DtableWord.Compute("Count([ID])", "");
@@ -93,12 +80,23 @@ namespace RPlink
              dr["id"] = OBconncet.id;
              dr["Record"] = OBconncet.cn;
              DtableCollect.Rows.Add(dr);
-             //保存到数据库
-             Com.CommandText = "insert into [Collect$](ID,Record) values(@id,@record)";
-             Com.Parameters.AddWithValue("@id", OBconncet.id);
-             Com.Parameters.AddWithValue("@record", OBconncet.cn);
+
+             //保存或更新到数据库
+             if (int.Parse(OBconncet.id) > i)//判断是增加（“>”成立）还是更新（“>”不成立）
+             {
+                 Com.CommandText = "insert into [Collect$](ID,Record) values(@id,@record)";
+                 Com.Parameters.AddWithValue("@id", OBconncet.id);
+                 Com.Parameters.AddWithValue("@record", OBconncet.cn);
+
+             }
+             else
+             {
+                 Com.CommandText = "update [Collect$] set ID =@id,Record =@record where ID = " + OBconncet.id;
+                 Com.Parameters.AddWithValue("@id", OBconncet.id);
+                 Com.Parameters.AddWithValue("@record", OBconncet.cn);
+             }
              int T_F = (int)Com.ExecuteNonQuery();
-             return T_F;
+             return T_F;             
          }
     }
 }

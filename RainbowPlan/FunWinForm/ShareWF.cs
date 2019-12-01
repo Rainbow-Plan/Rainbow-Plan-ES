@@ -23,8 +23,16 @@ namespace FunWinForm
 
         public void TO_Pictrue(RPobject Share)//接收上一窗体的分享数据并填充到窗体文本框
         {
-            this.lbEnglish.Text = Share.eng;
-            this.lbChanese.Text = Share.cn;
+            if (Share.eng != null)
+            {
+                this.lbEnglish.Text = Share.eng;
+                this.lbChanese.Text = Share.cn;
+            }
+            else
+            {
+                this.lbEnglish.Hide();
+                this.lbChanese.Text = Share.cn;
+            }
         }
 
         private void btGoBack_Click(object sender, EventArgs e)//合适的退步，反而有更多的经常
@@ -48,9 +56,30 @@ namespace FunWinForm
 
         public void CaptureImage()     //截图并保存分享图片的方法
         {
+            int Fleft = this.Left, Ftop = this.Top;
+            Rectangle rect = System.Windows.Forms.SystemInformation.VirtualScreen;
+            double Fwidth = 1920;
+            double factor = Fwidth / rect.Width;
+            //判断缩放倍数
+            if(factor == 1.0)
+            {
+                Fleft = this.Left;
+                Ftop = this.Top;
+            }
+            if (factor == 1.25)
+            {
+                Fleft = this.Left + 192;
+                Ftop = this.Top + 108;
+            }
+            if (factor == 1.5)
+            {
+                Fleft = this.Left + 320;
+                Ftop = this.Top + 180;
+             }
+
             Bitmap image = new Bitmap(this.Width, this.Height);
             Graphics imgGraphics = Graphics.FromImage(image);
-            imgGraphics.CopyFromScreen(this.Left, this.Top, 0, 0, new Size(this.Width, this.Height));
+            imgGraphics.CopyFromScreen(Fleft, Ftop, 0, 0, new Size(this.Width, this.Height));
             SaveFileDialog op = new SaveFileDialog();
             op.Filter = "图片文件|*.bmp;*,jpg;*.png";
             if (op.ShowDialog() == DialogResult.OK)//显示保存文件对话框

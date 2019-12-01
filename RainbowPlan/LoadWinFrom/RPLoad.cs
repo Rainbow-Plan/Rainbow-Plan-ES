@@ -31,7 +31,7 @@ namespace LoadWinFrom
         {
             Load_Word();
             this.lbEnglish.Text = OB_Load.eng;
-            this.lbChanese.Text = OB_Load.cn;
+            this.lbChinese.Text = OB_Load.cn;
         }
 
         private void LoadWF_KeyPress(object sender, KeyPressEventArgs e)//按ESC退出程序

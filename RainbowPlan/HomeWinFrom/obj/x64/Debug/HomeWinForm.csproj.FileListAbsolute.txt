@@ -1,0 +1,12 @@
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\HomeWinFrom.dll
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\HomeWinFrom.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\FunWinForm.dll
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\RPlink.dll
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\FunWinForm.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\bin\x64\Debug\RPlink.pdb
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinForm.csprojResolveAssemblyReference.cache
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinFrom.HomeWF.resources
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinFrom.Properties.Resources.resources
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinForm.csproj.GenerateResource.Cache
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinFrom.dll
+C:\Users\F_ver\Desktop\RainbowPlan\HomeWinFrom\obj\x64\Debug\HomeWinFrom.pdb

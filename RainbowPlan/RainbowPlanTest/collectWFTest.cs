@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using FunWinForm;
 using RPlink;
+using System.Data.OleDb;
+
 namespace RainbowPlanTest
 {
     [TestClass]

@@ -31,12 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectWF));
             this.pbCollect = new System.Windows.Forms.PictureBox();
             this.gbCollect = new System.Windows.Forms.GroupBox();
+            this.btToHome = new System.Windows.Forms.Button();
             this.btPreserve = new System.Windows.Forms.Button();
             this.btToShare = new System.Windows.Forms.Button();
             this.rtxCollect = new System.Windows.Forms.RichTextBox();
             this.lbSlogan = new System.Windows.Forms.Label();
             this.gbRecord = new System.Windows.Forms.GroupBox();
-            this.btToHome = new System.Windows.Forms.Button();
+            this.btUpdate3 = new System.Windows.Forms.Button();
+            this.btUpdate2 = new System.Windows.Forms.Button();
+            this.btUpdate1 = new System.Windows.Forms.Button();
             this.btRToShare3 = new System.Windows.Forms.Button();
             this.btRToShare2 = new System.Windows.Forms.Button();
             this.btRToShare1 = new System.Windows.Forms.Button();
@@ -60,6 +63,7 @@
             // 
             // gbCollect
             // 
+            this.gbCollect.Controls.Add(this.btToHome);
             this.gbCollect.Controls.Add(this.btPreserve);
             this.gbCollect.Controls.Add(this.btToShare);
             this.gbCollect.Controls.Add(this.rtxCollect);
@@ -72,16 +76,33 @@
             this.gbCollect.TabStop = false;
             this.gbCollect.Text = "在此处输入啦！";
             // 
+            // btToHome
+            // 
+            this.btToHome.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btToHome.ForeColor = System.Drawing.Color.Black;
+            this.btToHome.Image = ((System.Drawing.Image)(resources.GetObject("btToHome.Image")));
+            this.btToHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btToHome.Location = new System.Drawing.Point(6, 200);
+            this.btToHome.Name = "btToHome";
+            this.btToHome.Size = new System.Drawing.Size(156, 52);
+            this.btToHome.TabIndex = 5;
+            this.btToHome.TabStop = false;
+            this.btToHome.Text = "主页";
+            this.btToHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btToHome.UseVisualStyleBackColor = true;
+            this.btToHome.Click += new System.EventHandler(this.btToHome_Click);
+            // 
             // btPreserve
             // 
             this.btPreserve.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btPreserve.ForeColor = System.Drawing.Color.Black;
             this.btPreserve.Image = ((System.Drawing.Image)(resources.GetObject("btPreserve.Image")));
             this.btPreserve.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btPreserve.Location = new System.Drawing.Point(305, 200);
+            this.btPreserve.Location = new System.Drawing.Point(331, 200);
             this.btPreserve.Name = "btPreserve";
             this.btPreserve.Size = new System.Drawing.Size(156, 52);
             this.btPreserve.TabIndex = 1;
+            this.btPreserve.TabStop = false;
             this.btPreserve.Text = "保存";
             this.btPreserve.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btPreserve.UseVisualStyleBackColor = true;
@@ -93,10 +114,11 @@
             this.btToShare.ForeColor = System.Drawing.Color.Black;
             this.btToShare.Image = ((System.Drawing.Image)(resources.GetObject("btToShare.Image")));
             this.btToShare.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btToShare.Location = new System.Drawing.Point(108, 200);
+            this.btToShare.Location = new System.Drawing.Point(169, 200);
             this.btToShare.Name = "btToShare";
             this.btToShare.Size = new System.Drawing.Size(156, 52);
             this.btToShare.TabIndex = 1;
+            this.btToShare.TabStop = false;
             this.btToShare.Text = "分享";
             this.btToShare.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btToShare.UseVisualStyleBackColor = true;
@@ -110,6 +132,7 @@
             this.rtxCollect.Size = new System.Drawing.Size(486, 157);
             this.rtxCollect.TabIndex = 0;
             this.rtxCollect.Text = "Learning is a cumulative process.";
+            this.rtxCollect.MouseDown += new System.Windows.Forms.MouseEventHandler(this.rtxCollect_MouseDown);
             // 
             // lbSlogan
             // 
@@ -125,7 +148,9 @@
             // 
             // gbRecord
             // 
-            this.gbRecord.Controls.Add(this.btToHome);
+            this.gbRecord.Controls.Add(this.btUpdate3);
+            this.gbRecord.Controls.Add(this.btUpdate2);
+            this.gbRecord.Controls.Add(this.btUpdate1);
             this.gbRecord.Controls.Add(this.btRToShare3);
             this.gbRecord.Controls.Add(this.btRToShare2);
             this.gbRecord.Controls.Add(this.btRToShare1);
@@ -141,20 +166,38 @@
             this.gbRecord.TabStop = false;
             this.gbRecord.Text = "以前的收集！";
             // 
-            // btToHome
+            // btUpdate3
             // 
-            this.btToHome.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btToHome.ForeColor = System.Drawing.Color.Black;
-            this.btToHome.Image = ((System.Drawing.Image)(resources.GetObject("btToHome.Image")));
-            this.btToHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btToHome.Location = new System.Drawing.Point(549, 117);
-            this.btToHome.Name = "btToHome";
-            this.btToHome.Size = new System.Drawing.Size(67, 164);
-            this.btToHome.TabIndex = 5;
-            this.btToHome.Text = "主\r\n页";
-            this.btToHome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btToHome.UseVisualStyleBackColor = true;
-            this.btToHome.Click += new System.EventHandler(this.btToHome_Click);
+            this.btUpdate3.Location = new System.Drawing.Point(460, 220);
+            this.btUpdate3.Name = "btUpdate3";
+            this.btUpdate3.Size = new System.Drawing.Size(84, 53);
+            this.btUpdate3.TabIndex = 5;
+            this.btUpdate3.TabStop = false;
+            this.btUpdate3.Text = "修改";
+            this.btUpdate3.UseVisualStyleBackColor = true;
+            this.btUpdate3.Click += new System.EventHandler(this.btUpdate3_Click);
+            // 
+            // btUpdate2
+            // 
+            this.btUpdate2.Location = new System.Drawing.Point(460, 137);
+            this.btUpdate2.Name = "btUpdate2";
+            this.btUpdate2.Size = new System.Drawing.Size(84, 53);
+            this.btUpdate2.TabIndex = 5;
+            this.btUpdate2.TabStop = false;
+            this.btUpdate2.Text = "修改";
+            this.btUpdate2.UseVisualStyleBackColor = true;
+            this.btUpdate2.Click += new System.EventHandler(this.btUpdate2_Click);
+            // 
+            // btUpdate1
+            // 
+            this.btUpdate1.Location = new System.Drawing.Point(460, 54);
+            this.btUpdate1.Name = "btUpdate1";
+            this.btUpdate1.Size = new System.Drawing.Size(84, 53);
+            this.btUpdate1.TabIndex = 5;
+            this.btUpdate1.TabStop = false;
+            this.btUpdate1.Text = "修改";
+            this.btUpdate1.UseVisualStyleBackColor = true;
+            this.btUpdate1.Click += new System.EventHandler(this.btUpdate1_Click);
             // 
             // btRToShare3
             // 
@@ -163,12 +206,14 @@
             this.btRToShare3.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btRToShare3.ForeColor = System.Drawing.Color.Black;
             this.btRToShare3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btRToShare3.Location = new System.Drawing.Point(480, 220);
+            this.btRToShare3.Location = new System.Drawing.Point(559, 220);
             this.btRToShare3.Name = "btRToShare3";
             this.btRToShare3.Size = new System.Drawing.Size(53, 53);
             this.btRToShare3.TabIndex = 4;
+            this.btRToShare3.TabStop = false;
             this.btRToShare3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btRToShare3.UseVisualStyleBackColor = true;
+            this.btRToShare3.Click += new System.EventHandler(this.btRToShare3_Click);
             // 
             // btRToShare2
             // 
@@ -177,12 +222,14 @@
             this.btRToShare2.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btRToShare2.ForeColor = System.Drawing.Color.Black;
             this.btRToShare2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btRToShare2.Location = new System.Drawing.Point(480, 136);
+            this.btRToShare2.Location = new System.Drawing.Point(559, 137);
             this.btRToShare2.Name = "btRToShare2";
             this.btRToShare2.Size = new System.Drawing.Size(53, 53);
             this.btRToShare2.TabIndex = 3;
+            this.btRToShare2.TabStop = false;
             this.btRToShare2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btRToShare2.UseVisualStyleBackColor = true;
+            this.btRToShare2.Click += new System.EventHandler(this.btRToShare2_Click);
             // 
             // btRToShare1
             // 
@@ -191,12 +238,14 @@
             this.btRToShare1.Font = new System.Drawing.Font("楷体_GB2312", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btRToShare1.ForeColor = System.Drawing.Color.Black;
             this.btRToShare1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btRToShare1.Location = new System.Drawing.Point(549, 54);
+            this.btRToShare1.Location = new System.Drawing.Point(559, 54);
             this.btRToShare1.Name = "btRToShare1";
             this.btRToShare1.Size = new System.Drawing.Size(53, 53);
             this.btRToShare1.TabIndex = 2;
+            this.btRToShare1.TabStop = false;
             this.btRToShare1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btRToShare1.UseVisualStyleBackColor = true;
+            this.btRToShare1.Click += new System.EventHandler(this.btRToShare1_Click);
             // 
             // lbRecord3
             // 
@@ -206,7 +255,7 @@
             this.lbRecord3.ForeColor = System.Drawing.Color.Black;
             this.lbRecord3.Location = new System.Drawing.Point(1, 201);
             this.lbRecord3.Name = "lbRecord3";
-            this.lbRecord3.Size = new System.Drawing.Size(545, 80);
+            this.lbRecord3.Size = new System.Drawing.Size(615, 80);
             this.lbRecord3.TabIndex = 0;
             this.lbRecord3.Text = "Record2";
             // 
@@ -218,7 +267,7 @@
             this.lbRecord2.ForeColor = System.Drawing.Color.Black;
             this.lbRecord2.Location = new System.Drawing.Point(1, 117);
             this.lbRecord2.Name = "lbRecord2";
-            this.lbRecord2.Size = new System.Drawing.Size(545, 80);
+            this.lbRecord2.Size = new System.Drawing.Size(615, 80);
             this.lbRecord2.TabIndex = 0;
             this.lbRecord2.Text = "Record2";
             // 
@@ -274,5 +323,8 @@
         private System.Windows.Forms.Button btRToShare3;
         private System.Windows.Forms.Button btRToShare2;
         private System.Windows.Forms.Button btRToShare1;
+        private System.Windows.Forms.Button btUpdate3;
+        private System.Windows.Forms.Button btUpdate2;
+        private System.Windows.Forms.Button btUpdate1;
     }
 }
